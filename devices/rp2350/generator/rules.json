@@ -1,0 +1,5 @@
+{
+  "supportsADC": true,
+  "supportsPWM": true,
+  "supportsSPI": true
+}

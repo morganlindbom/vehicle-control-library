@@ -1,28 +1,22 @@
 # vehicle-control-library
-Reusable hardware library for embedded vehicle control projects, including datasheets, source code, specifications, and generator metadata.
 
-External reusable engineering asset repository for Vehicle Control Designer.
+Reusable hardware file repository for Vehicle Control Designer.
+
+GitHub is used only for engineering assets and source files. Searchable metadata lives inside Vehicle Control Designer.
 
 ## Structure
 
-- `controllers/`
-- `adc/`
-- `drivers/`
-- `sensors/`
-- `communication/`
-- `custom/`
+- `devices/`
 
-Each device follows a folder layout like:
+## Example device
 
-- `metadata.json`
-- `datasheets/`
-- `pinouts/`
-- `schematics/`
-- `images/`
-- `source/`
-- `examples/`
-- `generator/`
+- `devices/rp2350/`
 
-## Example
+Example file layout:
 
-- `controllers/rp2350/`
+- `devices/rp2350/datasheet/datasheet.pdf`
+- `devices/rp2350/pinout/pinout.png`
+- `devices/rp2350/source/rp2350.h`
+- `devices/rp2350/source/rp2350.cpp`
+- `devices/rp2350/examples/example.cpp`
+- `devices/rp2350/generator/rules.json`
